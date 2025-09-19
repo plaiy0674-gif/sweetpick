@@ -1,38 +1,207 @@
-.App {
+:root {
+  --color-base: rgba(0, 0, 0, 0.8);
+  --muted: #6b7280;
+  --brand1: #BDBFAE;
+  --brand2: #262621;
+  --brand3: #4F5954;
+  --highlight: #878C80;
+  --bg-base: #0D0D0B;
+  --radius: 15px;
+  --shadow: 0 6px 20px rgba(0, 0, 0, 0.8);
+  --white: #fff;
+  --h1: 'PartialSans';
+}
+
+body {
+  background: var(--brand2);
+}
+
+.container {
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+/* header */
+
+header .logo {
+  font-family: var(--h1);
+  font-size: 28px;
+  font-weight: lighter;
   text-align: center;
+  padding: 15px 0;
+  background-color: var(--brand1);
+  color: var(--bg-base);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+header .logo img {
+  max-width: 55px;
+  margin-right: 10px;
+  vertical-align: middle;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+header .logo span {
+  vertical-align: middle;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+header .gnb {
+  background: linear-gradient(45deg, #4F5954, #0D0D0B);
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap: 30px;
+  padding: 15px 0;
 }
 
-.App-link {
-  color: #61dafb;
+header .gnb a {
+  font-size: 17px;
+  font-weight: 500;
+  color: var(--highlight);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+header .gnb a:hover {
+  color: var(--white);
+}
+
+/* hero-slide */
+.hero-slide div {
+  height: 36vh;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+.hero-slide div img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+
+/* intro-text */
+.intro-text {
+  text-align: center;
+  padding: 0 30px;
+  box-sizing: border-box;
+  margin-bottom: 50px;
+}
+
+.intro-text h2 {
+  font-family: var(--h1);
+  font-size: 24px;
+  font-weight: lighter;
+  font-style: italic;
+  color: var(--muted);
+  line-height: 1.3;
+  margin-bottom: 15px;
+  background: linear-gradient(90deg, #fc4975, #898ed6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  word-break: keep-all;
+}
+
+.intro-text h2 strong {
+  font-size: 30px;
+}
+
+.intro-text .text {
+  color: rgba(255, 255, 255, 0.8);
+  word-break: keep-all;
+}
+
+/* recommendedArea */
+.recommendedArea {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.recommendedArea h2 {
+  color: #8b8b79;
+  margin-bottom: 15px;
+}
+
+/* recomCard */
+.recomCard {
+  width: 100%;
+}
+.card img {
+  width: 100%;
+}
+.card .recom-text {
+  margin: 15px 0 20px;
+}
+.card .recom-text h3 {
+  color: var(--white);
+  margin-bottom: 10px;
+}
+.card .recom-text .info {
+  color: rgba(255, 255, 255, 0.65);
+  line-height: 1.4;
+}
+
+/* Playlist */
+.listTitle {
+  color: var(--muted);
+  margin: 80px 0 8px;
+}
+.listTitle span {
+  color: #a1acc2ff;
+}
+.listSmall {
+  font-size: 16px;
+  color: var(--muted);
+}
+
+.playlist-list {
+  margin-top: 30px;
+  width: 100%;
+}
+.playlist-card {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  background: var(--white);
+  border-bottom: 1px solid #cdcdcd;
+  cursor: pointer;
+}
+.playlist-card:hover {
+  background: rgba(255, 255, 255, 0.8);
+}
+.playlist-card figure {
+  max-width: 150px;
+  overflow: hidden;
+}
+.playlist-card figure img {
+  width: 100%;
+}
+.btn-area {
+  width: 100%;
+}
+.btn-area button {
+  width: 100%;
+  padding: 15px;
+  background-color: var(--brand3);
+}
+.btn-area button:hover {
+  background: rgba(79, 89, 84, 0.2);
+  color: var(--white);
+}
+
+/* footer */
+.wrap .site-footer {
+  z-index: -1;
+  position: relative;
+  background: #4F5954;
+  padding: 15px;
+  box-sizing: border-box;
+  height: 50px;
+  margin-top: 50px;
+}
+
+.wrap .site-footer small {
+  position: absolute;
+  right: 20px; top: 50%;
+  transform: translateY(-50%);
+  color: #d6d6d6;
 }

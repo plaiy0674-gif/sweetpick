@@ -1,0 +1,83 @@
+:root {
+  --color-base: rgba(0,0,0,0.8);
+  --muted: #6b7280;
+  --brand1: #BDBFAE;
+  --brand2: #262621;
+  --brand3: #4F5954;
+  --highlight: #878C80;
+  --bg-base:#0D0D0B;
+  --radius: 15px;
+  --shadow: 0 6px 20px rgba(0,0,0,0.8);
+  --white: #fff;
+  --h1: 'PartialSans';
+}
+
+.modal-contents {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.modal-contents main {
+    padding: 20px;
+}
+.modal-contents main .modal-cont {
+    display: flex;
+    gap: 30px;
+}
+.modal-contents main .modal-cont figure {
+    width: 50%;
+    overflow: hidden;
+    border-radius: 30px;
+}
+.modal-contents main .modal-cont img {
+    max-width: 100%;
+}
+.modal-cont > div {
+    display: flex;
+    flex-direction: column;
+}
+.modal-info {
+    width: calc(100% );
+}
+
+button [role="tab"] {
+    padding: 8px 16px;
+    background: var(--brand1);
+    margin-right: 5px;
+    border-radius: 8px;
+}
+button[role="tab"].active {
+    background: var(--highlight);
+}
+.tap-panel {
+    padding: 20px;
+}
+
+/* modal */
+.modal-bg {
+    position: fixed;
+    inset: 0;
+    background-color:rgba(13, 13, 11, 0.8);
+    display: grid;
+    place-items: center;
+    padding: 20px;
+}
+.modal-panel {
+    position: relative;
+    max-width: min(760px, 90vw);
+    max-height: 80vh;
+    overflow: auto;
+    box-shadow: 0 20px 50px rgba(0,0,0,0.3);
+}
+.modal-panel img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border: var(--radius)30px;
+}
+.modal-panel button {
+    position: absolute;
+    top: 20px; right: 20px;
+    padding: 10px;
+    background: none;
+    cursor: pointer;
+}
