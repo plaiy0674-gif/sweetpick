@@ -1,0 +1,164 @@
+{
+"sweetpicks" : [
+  {
+    "id": "1",
+    "title": "| Aminé - Caroline",
+    "description": "Aminé의 2016년 데뷔 싱글로, 유쾌한 비트와 중독적인 훅으로 큰 인기를 얻음. 수록 앨범: 'Good For You'.",
+    "image": "https://i1.sndcdn.com/artworks-i8LYoNCq9hB8-0-t500x500.jpg",
+    "recommended": true,
+    "tags": ["힙합", "데뷔싱글"]
+  },
+  {
+    "id": "2",
+    "title": "| Aminé - REEL IT IN",
+    "description": "2018년 발표된 Aminé의 히트곡으로, 미니멀한 비트와 짧은 러닝타임이 특징. 수록 앨범: 'ONEPOINTFIVE'.",
+    "image": "https://i1.sndcdn.com/artworks-UOLIpctDrfVG-0-t500x500.jpg",
+    "recommended": false,
+    "tags": ["힙합", "트렌디"]
+  },
+  {
+    "id": "3",
+    "title": "| Tyler, The Creator - EARFQUAKE",
+    "description": "Tyler, The Creator의 2019년 앨범 'IGOR'의 대표곡으로, 멜로디와 감성적인 보컬이 돋보임.",
+    "image": "https://i.namu.wiki/i/arGbIMGugGQi_xshuYBVGHtP3vzmZXBSFI6jX_sxZFSZPxy94ttErlf0ipQRVS4bCrbYZeThpgmLDD7TDlIM3A.webp",
+    "recommended": true,
+    "tags": ["R&B", "그래미수상앨범"]
+  },
+  {
+    "id": "4",
+    "title": "| Tyler, The Creator - See You Again",
+    "description": "Tyler, The Creator의 2017년 앨범 'Flower Boy' 수록곡으로, Kali Uchis가 피처링한 로맨틱한 분위기의 트랙.",
+    "image": "https://image.bugsm.co.kr/album/images/500/6530/653016.jpg",
+    "recommended": false,
+    "tags": ["힙합", "피처링"]
+  },
+  {
+    "id": "5",
+    "title": "| Kendrick Lamar - HUMBLE.",
+    "description": "Kendrick Lamar의 2017년 앨범 'DAMN.'의 메인 싱글로 그래미 어워드를 수상한 곡.",
+    "image": "https://i.scdn.co/image/ab67616d0000b2738b52c6b9bc4e43d873869699",
+    "recommended": true,
+    "tags": ["힙합", "그래미수상"]
+  },
+  {
+    "id": "6",
+    "title": "| Kendrick Lamar - Alright",
+    "description": "Kendrick Lamar의 2015년 앨범 'To Pimp a Butterfly' 수록곡으로 사회적 메시지가 담긴 대표곡.",
+    "image": "https://i.ytimg.com/vi/67vr-3kpX3Q/mqdefault.jpg",
+    "recommended": false,
+    "tags": ["의미있는가사", "힙합"]
+  },
+  {
+    "id": "7",
+    "title": "| Kanye West - Stronger",
+    "description": "Kanye West의 2007년 앨범 'Graduation' 수록곡으로 일렉트로닉 사운드와 힙합이 결합된 히트곡.",
+    "image": "https://i1.sndcdn.com/artworks-ZBc5ICibUxD0qDHV-OIR0WQ-t500x500.jpg",
+    "recommended": true,
+    "tags": ["힙합", "일렉트로닉"]
+  },
+  {
+    "id": "8",
+    "title": "| Kanye West - Heartless",
+    "description": "Kanye West의 2008년 앨범 '808s & Heartbreak'의 대표곡으로 오토튠 보컬이 특징.",
+    "image": "https://i.scdn.co/image/ab67616d0000b273346d77e155d854735410ed18",
+    "recommended": false,
+    "tags": ["힙합", "오토튠"]
+  },
+  {
+    "id": "9",
+    "title": "| Travis Scott - SICKO MODE",
+    "description": "Travis Scott의 2018년 앨범 'Astroworld' 대표곡으로 3파트로 구성된 독특한 구조가 특징.",
+    "image": "https://i1.sndcdn.com/artworks-RdrGhHV4kxDe3vzm-W2LMkA-t500x500.jpg",
+    "recommended": true,
+    "tags": ["힙합", "빌보드1위"]
+  },
+  {
+    "id": "10",
+    "title": "| Travis Scott - goosebumps",
+    "description": "Travis Scott의 2016년 앨범 'Birds in the Trap Sing McKnight' 수록곡으로 Kendrick Lamar가 피처링.",
+    "image": "https://i.scdn.co/image/ab67616d0000b273f54b99bf27cda88f4a7403ce",
+    "recommended": false,
+    "tags": ["피처링", "힙합"]
+  },
+  {
+    "id": "11",
+    "title": "| Drake - God's Plan",
+    "description": "Drake의 2018년 싱글로, 빌보드 핫100에서 11주간 1위를 기록한 대표곡.",
+    "image": "https://i.namu.wiki/i/o5aUU8_xJle1YZBGEOAg82SbYo9ax-PvC-gOhovQT3mMjpjSPtep7932c2bLintNKqJOr9pD2FGtkd8oJr1NmA.webp",
+    "recommended": true,
+    "tags": ["힙합", "빌보드1위"]
+  },
+  {
+    "id": "12",
+    "title": "| Drake - One Dance",
+    "description": "Drake의 2016년 앨범 'Views' 수록곡으로 Afrobeats 사운드를 접목한 글로벌 히트곡.",
+    "image": "https://i1.sndcdn.com/artworks-sjVrZBxRaZXJ-0-t500x500.jpg",
+    "recommended": false,
+    "tags": ["Afrobeats", "힙합"]
+  },
+  {
+    "id": "13",
+    "title": "| Doja Cat - Say So",
+    "description": "Doja Cat의 2019년 앨범 'Hot Pink' 수록곡으로 TikTok에서 큰 인기를 얻어 빌보드 1위에 오른 곡.",
+    "image": "https://i1.sndcdn.com/artworks-Q3krM39PI7gt3gDD-BddjSw-t500x500.jpg",
+    "recommended": true,
+    "tags": ["팝", "틱톡히트"]
+  },
+  {
+    "id": "14",
+    "title": "| Doja Cat - Woman",
+    "description": "Doja Cat의 2021년 앨범 'Planet Her' 수록곡으로 Afrobeat 리듬과 팝이 결합된 곡.",
+    "image": "https://i.scdn.co/image/ab67616d0000b273be841ba4bc24340152e3a79a",
+    "recommended": false,
+    "tags": ["Afrobeats", "팝"]
+  },
+  {
+    "id": "15",
+    "title": "| Sexyy Red - Pound Town",
+    "description": "Sexyy Red의 2023년 발표 싱글로, 신인답지 않은 강렬한 에너지가 특징.",
+    "image": "https://i1.sndcdn.com/artworks-119baf13-6a26-4ac1-902a-9ca7fe8a39b0-0-t500x500.jpg",
+    "recommended": true,
+    "tags": ["힙합", "신곡"]
+  },
+  {
+    "id": "16",
+    "title": "| Sexyy Red - SkeeYee",
+    "description": "Sexyy Red의 2023년 발표곡으로 클럽과 SNS에서 인기를 얻음.",
+    "image": "https://i1.sndcdn.com/artworks-QiuITZvRLHGi-0-t500x500.jpg",
+    "recommended": false,
+    "tags": ["힙합", "바이럴"]
+  },
+  {
+    "id": "17",
+    "title": "| Kali Uchis - Telepatía",
+    "description": "Kali Uchis의 2020년 앨범 'Sin Miedo (del Amor y Otros Demonios)' 수록곡으로 라틴팝 사운드가 특징.",
+    "image": "https://i1.sndcdn.com/artworks-RjM8FqfvEdTM-0-t500x500.jpg",
+    "recommended": true,
+    "tags": ["라틴팝", "바이럴"]
+  },
+  {
+    "id": "18",
+    "title": "| Kali Uchis - After The Storm",
+    "description": "Kali Uchis의 2018년 앨범 'Isolation' 수록곡으로 Tyler, The Creator와 Bootsy Collins가 피처링.",
+    "image": "https://i.ytimg.com/vi/vgOTxZtlXys/sddefault.jpg",
+    "recommended": false,
+    "tags": ["피처링", "소울"]
+  },
+  {
+    "id": "19",
+    "title": "| SZA - Good Days",
+    "description": "SZA의 2020년 발표 싱글로, R&B와 네오소울이 결합된 감성적인 곡.",
+    "image": "https://i.scdn.co/image/ab67616d0000b2733097b1375ab17ae5bf302a0a",
+    "recommended": true,
+    "tags": ["R&B", "네오소울"]
+  },
+  {
+    "id": "20",
+    "title": "| SZA - Kill Bill",
+    "description": "SZA의 2022년 앨범 'SOS' 수록곡으로 빌보드 차트 1위를 차지한 곡.",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBRG2kViUD7r4cr_x2Glc-hj5fYzgtsLZUow&s",
+    "recommended": false,
+    "tags": ["R&B", "빌보드1위"]
+  }
+]
+}
